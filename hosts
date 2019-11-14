@@ -4,5 +4,5 @@
 3.133.144.67
 
 [vars]
-ansible_user=ubuntu 
+ansible_user=ubuntu         
 ansible_ssh_private_key_file=~/home/02.000504/chave_ohio.pem
