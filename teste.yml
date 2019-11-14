@@ -1,3 +1,4 @@
-- hosts: wordpress
+- hosts: all
   roles:
     - role: config
+  become: yes
