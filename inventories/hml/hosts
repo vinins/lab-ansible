@@ -1,0 +1,9 @@
+[database]
+3.133.144.67
+
+[wordpress]
+18.221.66.40
+
+[vars]
+ansible_user=ubuntu 
+ansible_ssh_private_key_file=~/home/02.000504/chave_ohio.pem
