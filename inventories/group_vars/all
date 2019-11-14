@@ -1,2 +1,2 @@
-usuario=ubuntu         
-chave=/home/02.000504/chave_ohio.pem
+usuario: ubuntu         
+chave: /home/02.000504/chave_ohio.pem
