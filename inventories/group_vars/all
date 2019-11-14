@@ -1,2 +1,3 @@
 usuario: ubuntu         
 chave: /home/02.000504/chave_ohio.pem
+python_version: 3.5
