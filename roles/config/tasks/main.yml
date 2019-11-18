@@ -1,16 +1,11 @@
 ---
-- name: 'Instala pacotes de dependencia do sistema operacional'
-  apt:
-    name: "{{ item }}"
-    state: latest
-  become: yes
-  vars:
-    ansible_python_interpreter: "{{ python_vers }}"
-  with_items:
-    - php5
-    - apache2
-    - libapache2-mod-php5
-    - php5-gd
-    - libssh2-php
-    - php5-mcrypt
-    
+- hosts: all
+  remote_user: root
+  gather_facts: false
+  tasks:  
+    - name: Check for Python
+        raw: test -e /usr/bin/python
+        changed_when: false
+        failed_when: false
+        register: check_python
+
